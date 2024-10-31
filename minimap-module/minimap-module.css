@@ -1,0 +1,56 @@
+/* style for the container determines the size and location of the minimap */
+
+.minimap-container
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 90;
+    border: 1px solid black;
+		-webkit-transition: -webkit-transform width 0.2s, height 0.2s;
+		transition: width 0.2s, height 0.2s;
+}
+
+.minimap-glyph
+{
+		opacity: 0.5;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0px 0px;
+}
+
+.minimap-glyph:hover {
+		opacity: 1;
+		color: #000;
+		visibility: visible;
+		background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* upper right corner of the map */
+.minimap-glyph.minimap-glyph-show
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    width: 24px;
+    height: 24px;
+}
+
+/* lower left corner with a z-index to make it show above the minimap */
+.minimap-glyph.minimap-glyph-hide
+{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 100;
+    width: 24px;
+    height: 24px;
+}
+
+.minimap-glyph svg path {
+  fill: #000;
+  stroke-width: 0;
+}

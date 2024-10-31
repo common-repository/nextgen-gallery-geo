@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* 
+* File type: CSS Document
+* Plugin: Geo2 Maps Add-on for NextGEN Gallery
+* Description: Main plugin styles
+* Author: Pawel Block
+* Version: 2.0.2
+* Text Domain: ngg-geo2-maps
+* Domain Path: /languages
+*/
+
+/* Changes:
+ * @since      2.0.0
+ * @since      2.0.5 Amended missing letter in ".fancybox3-caption b:first-of-type" and corrected for Firefox ".geo2_scrollbar_style" parameter "scrollbar-width: thin;"
+ * @since      2.0.6 ".fancybox3-caption b:first-of-type" removed
+ */
+
+/* map container */
+.geo2_maps_map {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.geo2_maps_map img {
+	max-width: none;
+}
+
+.geo2_maps_map p {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.geo2_slide {
+	--geo2_slide-color_top: #777;
+	--geo2_slide-color_bottom: #999;
+}
+
+.geo2_slide {
+	margin: 0 auto;
+	padding: 0;
+	height: auto;
+	width: 140px;
+	border-radius: 0px 0px 4px 4px;
+	background-color: var(--geo2_slide-color_top, #666); /* For browsers that do not support gradients */
+	background-image: -webkit-linear-gradient(var(--geo2_slide-color_top), var(--geo2_slide-color_bottom));
+	background-image: -moz-linear-gradient(var(--geo2_slide-color_top), var(--geo2_slide-color_bottom));
+	background-image: -o-linear-gradient(var(--geo2_slide-color_top), var(--geo2_slide-color_bottom));
+	background-image: linear-gradient(var(--geo2_slide-color_top), var(--geo2_slide-color_bottom));
+}
+
+.geo2_slide_line {
+	margin: 0 auto;
+	height: 5px;
+	background-color: #000;
+}	
+
+a.geo2_btn_slide {
+	background: url(white-arrow.gif) no-repeat right -50px;
+	text-align: center;
+	height: 31px;
+	padding: 7px 0 0 0;
+	margin: 0 auto;
+	display: block;
+	font: bold 120%/100% Arial, Helvetica, sans-serif;
+	color: #333;
+	font-size: 18px;
+	text-decoration: none !important;
+}
+
+a.geo2_btn_slide:visited {
+	color: #333;
+}
+
+p.geo2_slide a.geo2_active {
+	background-position: right 12px;
+}
+
+#geo2_overlay {
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+
+#geo2_overlay img {
+	width: inherit;
+}
+
+.geo2_caption h3, .geo2_InfoboxCustom h3 {
+	margin: 0;
+}
+
+#geo2_preview_map {
+	border-top: 1px solid #ccc;
+	display: block;
+}
+
+.geo2_fullscreen_icon {
+	position: absolute;
+	display: block;
+	width: 24px;
+	height: 24px;
+  top: 0px;
+  left: 0px;
+	color: #000;
+	padding:0px;
+	opacity: 0.5;
+	background: transparent;
+  visibility: visible;
+  z-index: 99;
+	overflow: hidden;
+}
+.geo2_fullscreen_icon:hover {
+	opacity: 1;
+	color: #000;
+  visibility: visible;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.geo2_fullscreen_icon svg {
+  display: block;
+  height: 100%;
+  overflow: visible;
+  position: relative;
+  width: 100%;
+}
+
+.geo2_fs svg:nth-child(1) {
+  display: none;
+}
+.geo2_fs_out svg:nth-child(1) {
+  display: block;
+}
+.geo2_fs svg:nth-child(2) {
+  display: block;
+}
+.geo2_fs_out svg:nth-child(2) {
+  display: none;
+}
+
+.geo2_fullscreen_icon svg path {
+  fill: currentColor;
+  stroke-width: 0;
+}
+
+/* map transition to full screen not working 
+.geo2_maps_map{
+	-webkit-transition: -webkit-transform width 1.3s, height 1.3s;
+	transition: width 0.3s, height 0.3s;
+}
+*/
+
+.geo2_map_fullscreen{
+	display: block;
+  top: 0px;
+  left: 0px;
+	padding: 0px;
+	margin: 0px;
+  z-index: 999;
+	box-sizing: border-box;
+	-webkit-backface-visibility: hidden;
+}
+
+.fancybox3-caption-exif-param {
+	font-size: 10px;
+}
+
+.fancybox3-sidepanel_map {
+	bottom: 0px;
+	position:absolute;
+	width: 100%;
+	display: block;
+}
+
+.fancybox3-sidepanel_map .geo2_maps_map {
+	min-height: 200px;
+	height: auto;
+}
+
+/* CSS styles used by custom infobox template */
+.geo2_InfoboxCustom {
+	background-color: rgba(0,0,0,0.7);
+	color: #fff;
+	border-radius: 0px;
+	padding: 0px;
+	font-size:12px;
+	pointer-events:auto !important;
+	overflow: hidden;
+}
+
+.geo2_infobox_desc {
+	overflow-y: auto;
+	padding: 10px;
+	max-height:200px;
+	box-sizing: border-box;
+}
+.geo2_infobox_desc:empty {
+	padding: 0px;
+}
+.geo2_infobox_title_wrap {
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.geo2_infobox_title {
+	overflow-y: auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 0px;
+	padding-top: calc(100% * var(--ratio) );
+}
+.geo2_infobox_title_cont {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+  height: 100%;
+}
+.geo2_infobox_title_text {
+	padding: 10px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	text-shadow: 1px 1px 0px #000;
+   /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; outline effect */
+}
+.InfoboxCustom img {
+	display: block;
+	width: auto;
+}
+
+/*
+ * SCROLLBAR STYLE 1
+ */
+
+.geo2_scrollbar_style::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.7);
+	background-color: #000;
+}
+
+.geo2_scrollbar_style::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.geo2_scrollbar_style::-webkit-scrollbar-thumb
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.7);
+	background-color: #555;
+}
+/* for Firefox  */
+.geo2_scrollbar_style
+{
+	scrollbar-color: #555 rgba(0,0,0,0.7);
+  scrollbar-width: thin;
+}
+
+/* for Fancybox caption to be white */
+#fancybox-title #fancybox-title-over {
+	background-image: None;

@@ -1,0 +1,412 @@
+@charset "utf-8";
+/* 
+* File type: CSS Document
+* Plugin: Geo2 Maps Add-on for NextGEN Gallery
+* Description: Admin page styles
+* Author: Pawel Block
+* Version: 2.0.3 
+* Text Domain: ngg-geo2-maps
+* Domain Path: /languages
+*/
+
+/* Changes:
+ * @since      2.0.0
+ * @since      2.0.1 Amended.
+ * @since      2.0.2 Amended 28.10.2023
+ * @since      2.0.3 Amended 24.06.2024 Added: .geo2_wrap, display: none to #geo2_plus_upgrade
+ */
+
+/* Style the tab */
+.geo2_tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.geo2_tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  border-right: 1px solid #ccc;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.geo2_tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.geo2_tab button.geo2_active {
+  background-color: #9dbd1b;
+  color: white;
+}
+
+/* Style the tab content */
+.geo2_tab_content {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.geo2_defaults {
+  margin: 12px;
+  padding: 0px 18px 16px 18px;
+  border: 2px solid #ccc;
+}
+
+.geo2_wrap {
+    margin-left: 20px;
+}
+
+.geo2_wrap h3,
+.geo2_wrap h2 {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.geo2_wrap h3 {
+  margin: 0;
+}
+
+.geo2_wrap h4 {
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+.geo2_wrap span.geo2_key_not_activated {
+  color: red;
+  font-weight: bold;
+}
+
+.geo2_wrap span.geo2_key_activated {
+  color: #9dbd1b;
+  font-weight: bold;
+}
+
+.geo2_wrap span.description {
+  font-style: italic;
+}
+
+.geo2_margin_top {
+  margin-top: 6px;
+}
+
+.geo2_margin_bottom {
+  margin-bottom: 6px;
+}
+
+#geo2_general {
+  display: block;
+}
+
+input.code {
+  padding-top: 4px;
+}
+
+.geo2_float_save_button {
+  position: relative;
+  width: 20%;
+  min-width: 100px;
+  z-index: 10;
+  left: 0px;
+  top: -49px;
+  float: right;
+}
+
+p.geo2_submit_button {
+  text-align: left;
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.geo2_save_button {
+  padding: 10px 20px !important;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 120px;
+  border-radius: 0px !important;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15),
+    0px 3px 4px 0px rgba(0, 0, 0, 0.45) !important;
+}
+
+/* Pin anchor image from admin Thumbnails page */
+.geo2_pin_image {
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+}
+
+#geo2_image_preview,
+#geo2_cluster_preview,
+#geo2_gallery_preview,
+#geo2_album_preview {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.geo2_image_preview_wrapper {
+  width: 159px;
+  float: left;
+}
+.geo2_image-wrapper {
+  height: 100px;
+  margin-bottom: 5px;
+}
+.geo2_input_wrapper {
+  margin-bottom: 5px;
+}
+
+.wp-picker-container {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+/* doante button */
+.geo2_donate {
+  position: absolute;
+  right: 10px;
+}
+
+@media all and (min-width: 600px) {
+  .geo2_donate {
+    top: 30px;
+  }
+}
+@media all and (max-width: 600px) {
+  .geo2_donate {
+    top: 76px;
+  }
+}
+
+/* Deactivation warning */
+#geo2_defaults_reset.geo2_warning {
+  display: block;
+}
+
+.geo2_modal {
+  position: fixed;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 100000;
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.geo2_modal .geo2_modal-dialog {
+  background: transparent;
+  position: absolute;
+  left: 50%;
+  margin-left: -298px;
+  padding-bottom: 30px;
+  top: calc(50% - 144px);
+  z-index: 100001;
+  width: 596px;
+}
+
+.geo2_modal .geo2_modal-header {
+  background: #143650;
+  color: #fff;
+  border-bottom: #eeeeee solid 1px;
+  padding: 15px 20px;
+  position: relative;
+  margin-bottom: -10px;
+}
+
+.geo2_modal .geo2_modal-body {
+  padding-top: 35px;
+  border-bottom: 0;
+}
+
+.geo2_modal .geo2_modal-body,
+.geo2_modal .geo2_modal-footer {
+  border: 0;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  background: #fefefe;
+  padding: 20px;
+  padding-top: 20px;
+}
+
+.geo2_modal .geo2_modal-body > div {
+  margin-top: 10px;
+}
+
+.geo2_modal .geo2_modal-footer {
+  border-top: #eeeeee solid 1px;
+  text-align: right;
+}
+
+.geo2_modal .geo2_modal-body,
+.geo2_modal .geo2_modal-footer {
+  border: 0;
+  border-top-color: currentcolor;
+  border-top-style: none;
+  border-top-width: 0px;
+  background: #fefefe;
+  padding: 20px;
+}
+
+.geo2_modal a.button-secondary {
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  height: 35px !important;
+  padding: 0 24px !important;
+  line-height: 35px;
+  width: auto !important;
+  border-radius: 3px;
+}
+
+.geo2_modal .geo2_modal-footer > .button:first-child {
+  margin: 0;
+}
+.geo2_modal .geo2_modal-footer > .button {
+  margin: 0 7px;
+}
+
+.geo2_modal a.button-primary {
+  background-color: #9fbb1a !important;
+  color: #fff !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  height: 35px !important;
+  padding: 0 24px !important;
+  line-height: 35px;
+  width: auto !important;
+  border-radius: 3px;
+}
+.geo2_modal .geo2_modal-header h4 {
+  text-shadow: none;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  -webkit-font-smoothing: antialiased;
+}
+
+table.geo2_plus_tb {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.geo2_plus_tb caption {
+  text-align: left;
+  margin: 6px 15px;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: lato, sans-serif;
+  letter-spacing: 0.3px;
+}
+
+.geo2_plus_tb_col1 {
+  width: 50%;
+}
+
+.geo2_plus_tb th,
+td {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.geo2_plus_tb th:first-child,
+td:first-child {
+  text-align: left;
+}
+
+.geo2_tr {
+  background-color: #f2f2f2;
+}
+
+.geo2_plus_tb th {
+  background-color: #608648;
+}
+
+.geo2_td_check:before {
+  content: "✔";
+  color: #8bbd24;
+  font-size: 20px;
+}
+
+.geo2_td_empty:before {
+  content: "✘";
+  color: #f26464;
+  font-size: 20px;
+}
+
+#geo2_plus h2 {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 400;
+  color: black;
+  margin: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+#geo2_plus h3 {
+  margin: 0 12px;
+  font-size: 17px;
+  letter-spacing: 0.3px;
+  line-height: 1.6;
+  font-family: lato, sans-serif;
+}
+
+#geo2_plus .geo2_plus_tb h3 {
+  margin: 0;
+  color: white;
+}
+
+#geo2_plus .geo2_plus_tb h2 {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  color: white;
+}
+
+#geo2_plus_upgrade {
+  display: none; /* TODO: remove when full page will be working */
+  float: right;
+  margin: 12px 12px 0 12px;
+  background-color: #6b9054;
+  text-shadow: unset;
+  border-radius: 0px;
+  border-width: 0;
+  font-size: 18px;
+  box-shadow: none;
+  color: #effbdc;
+  font-weight: 600;
+  padding: 3px 12px;
+  height: auto;
+  clear: both;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.45);
+}
+
+#geo2_plus_upgrade:hover {
+  /*background-color: #7ca832;*/
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2), 0px 5px 10px rgba(0, 0, 0, 0.35);
+  color: white;
+}
+
+.geo2_tr_head,
+.geo2_tr_category {
+  box-shadow: 0px -1px 3px -1px rgba(0, 0, 0, 0.15),
+    0px 3px 4px -2px rgba(0, 0, 0, 0.35);
+}

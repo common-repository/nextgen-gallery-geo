@@ -1,0 +1,1809 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NextGEN Gallery Geo2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-09 15:20+0000\n"
+"PO-Revision-Date: 2023-11-17 18:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.1"
+
+#: administration.php:623
+msgid " Disable geocoding"
+msgstr " Wyłącz geokodowanie"
+
+#. 1: HTML link opening tag. 2: HTML link closing tag.
+#: administration.php:700
+#, php-format
+#| msgid ""
+#| " The %sBing Maps Platform API’s Terms of Use%s state that a hypertext "
+#| "link to the Bing Maps TOU must be provided in specific situations."
+msgid ""
+" The %1$sBing Maps Platform API’s Terms of Use%2$s state that a hypertext "
+"link to the Bing Maps TOU must be provided in specific situations."
+msgstr ""
+"%1$sWarunki korzystania z platformy API Map Microsoft Bing%2$s stanowią, że "
+"w określonych sytuacjach należy podać łącze hipertekstowe do warunków "
+"korzystania z usługi Map Bing."
+
+#: administration.php:1622
+msgid "\"textOffset\" option for pin head's text"
+msgstr "Opcja \"textOffset\" przesunięcia tekstu na znaczniku"
+
+#. 1: HTML link opening tag. 2: HTML link closing tag. 3: HTML link opening tag. 4: HTML link closing tag. 5: HTML link opening tag. 6: HTML link closing tag.
+#: administration.php:427
+#, php-format
+msgid ""
+"%1$sNextGEN Gallery Geo%2$s was first written by Frederic Stuhldreier in "
+"2012 and updated independently by %3$sPawel Block%4$s in 2021 to %5$sGeo2 "
+"Maps Add-on%6$s. Please help me to improve it by sending your translation or "
+"donation."
+msgstr ""
+"%1$sNextGEN Gallery Geo%2$s został napisany po raz pierwszy przez Frederica "
+"Stuhldreiera w 2012 roku i niezależnie zaktualizowany przez %3$sPawła "
+"Blocka%4$s w 2021 roku do %5$sGeo2 Maps Add-on%6$s. Proszę pomóż mi go "
+"ulepszyć, wysyłając swoje tłumaczenie lub darowiznę."
+
+#: administration.php:933
+msgid ""
+"1. In JIG settings select \"Custom\" option for \"Lightbox Type\" on "
+"\"Lightbox\" tab.\n"
+"\t\t\t\t\t\t\t\t\t2. Set \"Custom attribute name\" to \"data-fancybox3\".\n"
+"\t\t\t\t\t\t\t\t\t3. Set \"Custom attribute value\" to \"gallery[*instance*]"
+"\".\n"
+"\t\t\t\t\t\t\t\t\t&ensp;&ensp;(omit quotation marks when entering values.)"
+msgstr ""
+"1. W ustawieniach JIG wybierz opcję \"Custom\" (Niestandardowe) dla "
+"\"Lightbox Type\" na zakładce \"Lightbox\".\n"
+"\t\t\t\t\t\t\t\t\t2. Dla \"Custom attribute name\" ustaw \"data-fancybox3\"."
+"\n"
+"\t\t\t\t\t\t\t\t\t3. Dla \"Custom attribute value\" ustaw "
+"\"gallery[*instance*]\".\n"
+"\t\t\t\t\t\t\t\t\t &ensp;&ensp;(Pomijaj znaki cudzysłowu przy wpisywaniu "
+"wartości.)"
+
+#: administration.php:1030
+msgid "Activate Route Mode"
+msgstr "Aktywuj tryb trasy"
+
+#: administration.php:1030
+msgid ""
+"Activate to use options below or for Shortcode loading route paths with "
+"elements (Shapes) containing balloon description shown using Infoboxes."
+msgstr ""
+"Aktywuj, aby skorzystać z poniższych opcji lub dla skrótu Shortcode "
+"ładującego ścieżekę trasy z elementami (Kształtami) zawierającymi opis "
+"wyświetlanymi za pomocą chmurki - Infoboksa."
+
+#: administration.php:479 administration.php:607 administration.php:617
+msgid "ACTIVATED"
+msgstr "AKTYWOWANY"
+
+#: administration.php:672 administration.php:723
+msgid "Aerial"
+msgstr "Lotniczy"
+
+#: administration.php:531
+#, fuzzy
+#| msgid " albums and galleries contained in albums"
+msgid "albums and galleries contained in albums"
+msgstr "albumów i galerii zawartych w tych albumach"
+
+#: administration.php:533
+#, fuzzy
+#| msgid ""
+#| " albums and galleries contained in albums and if not found for images "
+#| "contained in galleries"
+msgid ""
+"albums and galleries contained in albums and if not found for images "
+"contained in galleries"
+msgstr ""
+"albumów i galerii zawartych w tych albumach, a gdy nie zostaną znalezione to "
+"dla obrazów z zamieszczonych galerii"
+
+#: administration.php:529
+#, fuzzy
+#| msgid " albums contained in albums"
+msgid "albums contained in albums"
+msgstr "albumów zawartych w albumach"
+
+#: administration.php:1282
+msgid "Albums Thumbnail scale factor"
+msgstr "Scalowanie miniatur albumów"
+
+#: administration.php:551
+#, fuzzy
+#| msgid " all albums"
+msgid "all albums"
+msgstr "wszystkie albumy"
+
+#: administration.php:553
+#, fuzzy
+#| msgid " all albums and galleries"
+msgid "all albums and galleries"
+msgstr "wszystkie albumy i galerie"
+
+#: administration.php:552
+#, fuzzy
+#| msgid " all galleries"
+msgid "all galleries"
+msgstr "wszystkie galerie"
+
+#: administration.php:48
+msgid "An error occurred when saving ! "
+msgstr "Wystąpił błąd podczas zapisywania!"
+
+#: administration.php:1592
+msgid "Animated pins"
+msgstr "Animowane piny"
+
+#: bing-map-functions.php:581 bing-map-functions.php:698
+msgid "Aperture"
+msgstr "Przesłona"
+
+#: plugin.php:384
+msgid ""
+"API key validation request failed when trying to decode Bing Maps server "
+"response!"
+msgstr ""
+"Żądanie weryfikacji klucza API nie powiodło się podczas próby zdekodowania "
+"odpowiedzi serwera Bing Maps."
+
+#: plugin.php:444
+msgid ""
+"API key validation request failed when trying to decode Mapquest server "
+"response!"
+msgstr ""
+"Żądanie weryfikacji klucza API nie powiodło się podczas próby zdekodowania "
+"odpowiedzi serwera Mapquest."
+
+#: plugin.php:455
+msgid ""
+"API key validation successful! You can start using geocoding with MapQuest "
+"service."
+msgstr ""
+"Udana weryfikacja klucza API! Możesz zacząć używać geokodowania z usługą "
+"MapQuest."
+
+#: administration.php:522 administration.php:1148
+msgid "Auto Mode"
+msgstr "Tryb Auto"
+
+#: administration.php:527
+#, fuzzy
+#| msgid ""
+#| "Auto Mode option creates a map automatically based on the content of the "
+#| "NextGen Albums or Galleries placed on a page without a need to use a "
+#| "shortcode."
+msgid ""
+"Auto Mode option creates a map automatically based on the content of the "
+"NextGEN Albums or Galleries placed on a page without a need to use a "
+"shortcode."
+msgstr ""
+"Tryb Auto tworzy mapę automatycznie na podstawie zawartości Albumów lub "
+"Galerii NextGEN umieszczonych na stronie internetowej bez konieczności "
+"używania skrótów."
+
+#: administration.php:536
+msgid "Automatic map placement location on a page"
+msgstr ""
+"Położenie automatycznie umieszczanej mapy na stronie\n"
+
+#: administration.php:878
+msgid "Autostart in fullscreen on opening"
+msgstr "Otwórz w trybie pełnego ekranu po otwarciu"
+
+#: administration.php:879
+msgid "Autostart slideshow on opening"
+msgstr "Włącz pokaz slajdów po otwarciu"
+
+#: administration.php:1388
+msgid "Background and text color"
+msgstr "Kolor tekstu i tła"
+
+#: administration.php:914
+msgid "Background color"
+msgstr "Kolor tła"
+
+#: administration.php:1434
+msgid "Background opacity and color"
+msgstr "Kolor i przezroczystość tła"
+
+#: administration.php:1543
+msgid "Background opacity, image counter style"
+msgstr "Przezroczystość tła, styl licznika obrazów"
+
+#: administration.php:1501
+msgid "Background, caption and buttons opacity and color"
+msgstr "Kolor i przezroczystość tła, opisu i przycisków"
+
+#: plugin.php:410 plugin.php:414
+#| msgid "API key validation unsuccessful!"
+msgid "Bing API key validation unsuccessful!"
+msgstr "Nieudana weryfikacja klucza API!"
+
+#: administration.php:706
+#, fuzzy
+#| msgid "Bing Logo"
+msgid "Bing logo"
+msgstr "Logo Bing"
+
+#: administration.php:1091 administration.php:1092
+msgid "Bing Maps"
+msgstr "Mapy Bing"
+
+#: administration.php:482
+msgid "Bing Maps API Key"
+msgstr "Klucz Bing Mapy"
+
+#: plugin.php:407
+#| msgid "Bing API key validation successful! You can start using Geo2 Maps."
+msgid "Bing Maps API key validation successful! You can start using Geo2 Maps."
+msgstr ""
+"Udana weryfikacja klucza API Bing Maps! Możesz zacząć używać Mapy Geo2."
+
+#. 1: HTML link opening tag. 2: HTML link closing tag. 3: HTML link opening tag. 4: HTML link closing tag. 5: HTML link opening tag. 6: HTML link closing tag.
+#: administration.php:489
+#, php-format
+#| msgid ""
+#| "Bing Maps API platform is free to use with some limitations. For more "
+#| "information refer to: %sTerms Of Use%s, %sFAQ%s, %sLicensing Options "
+#| "chart%s."
+msgid ""
+"Bing Maps API platform is free to use with some limitations. For more "
+"information refer to: %1$sTerms Of Use%2$s, %3$sFAQ%4$s, %5$sLicensing "
+"Options chart%6$s."
+msgstr ""
+"Platforma Bing Maps API jest bezpłatna z pewnymi ograniczeniami. Więcej "
+"informacji można znaleźć w: %1$sWarunki Użytkowania%2$s, %3$sFAQ%4$s, "
+"%5$sTabela opcji licencjonowania%6$s."
+
+#: administration.php:1277
+msgid "Border width and color"
+msgstr "Szerokość i kolor obramowania"
+
+#: administration.php:871
+msgid "Bottom caption panel"
+msgstr "Panel z opisem na dole ekranu"
+
+#: administration.php:540
+msgid "Bottom of the page"
+msgstr "Na dole strony"
+
+#: administration.php:1000
+msgid ""
+"Box scale factor to use when auto-resizing the image to fit in a browser (1 "
+"= full browser size, 0 = disable resizing)"
+msgstr ""
+"Współczynnik skali używany podczas automatycznej zmiany rozmiaru obrazu w "
+"celu dopasowania do okna przeglądarki  (1 to pełny rozmiar okna przeglądarki,"
+" 0 wyłączy tą funkcję)"
+
+#: administration.php:920
+msgid "Buttons background color"
+msgstr "Kolor tła przycisków"
+
+#: administration.php:883
+msgid "Buttons Display options"
+msgstr "Opcje wyświetlania przycisków funkcji"
+
+#: administration.php:922
+msgid "Buttons sign color"
+msgstr "Kolor znaku na przyciskach"
+
+#: administration.php:924
+msgid "Buttons sign color on hover"
+msgstr "Kolor znaku na przyciskach po najechaniu kursorem"
+
+#: bing-map-functions.php:576 bing-map-functions.php:688
+msgid "Camera"
+msgstr "Aparat"
+
+#: administration.php:335
+#| msgid "cancel"
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: administration.php:330
+#, fuzzy
+#| msgid ""
+#| "Cancel and uncheck the \"Restore default settings\" tickbox in the Geo2 "
+#| "Maps options to deactivate without losing your settings."
+msgid ""
+"Cancel and uncheck the \"Restore default settings\" checkbox in the Geo2 "
+"Maps options to deactivate without losing your settings."
+msgstr ""
+"Anuluj i odznacz opcję „Przywróć ustawienia domyślne” w opcjach Geo2 Maps, "
+"aby wyłączyć wtyczkę bez utraty ustawień."
+
+#: administration.php:674 administration.php:725
+msgid "Canvas Dark"
+msgstr "Motyw Ciemny"
+
+#: administration.php:505 administration.php:1132
+msgid "Canvas image thumbnails"
+msgstr "Miniatury"
+
+#: administration.php:673 administration.php:724
+msgid "Canvas Light"
+msgstr "Motyw Jasny"
+
+#: administration.php:869
+msgid "Caption panel location and content"
+msgstr "Położenie i zawartość panelu z opisem obrazu"
+
+#: administration.php:916
+msgid "Caption text color"
+msgstr "Kolor tekstu opisu obrazu"
+
+#: geo2-fancybox3.php:200 geo2-fancybox3-worldmap.php:192
+msgid "Close"
+msgstr "Zamknij"
+
+#: administration.php:985
+msgid "Color of the overlay"
+msgstr "Kolor tła"
+
+#: administration.php:911
+msgid "Color Options"
+msgstr "Opcje kolorystyki"
+
+#: administration.php:1077
+msgid ""
+"Comparison of the basic Geo2 Maps and the expanded Geo2 Maps Plus for "
+"NextGEN plugins."
+msgstr ""
+"Porównanie wersji podstawowej Geo2 Maps i wersji rozszerzonej Geo2 Maps Plus "
+"dla wtyczek NextGEN."
+
+#: administration.php:874 administration.php:953 administration.php:996
+msgid "Control Options"
+msgstr "Opcje kontroli zawartością"
+
+#: administration.php:684
+#, fuzzy
+#| msgid "Copyright Text"
+msgid "Copyright text"
+msgstr "Tekst Prawa Autorskie \"Copyright\""
+
+#: administration.php:584
+#| msgid "Create a map with selected images by specifying an image ids."
+msgid "Create a map with selected images by specifying image ids."
+msgstr ""
+"Utwórz mapę z wybranymi obrazami, podając numery identyfikacyjne obrazów."
+
+#: administration.php:577
+msgid "Create a map with selected NextGEN galleries by specifying their ids."
+msgstr ""
+"Utwórz mapę z wybranymi galeriami NextGEN, określając ich numery "
+"identyfikacyjne."
+
+#: administration.php:718
+#| msgid ""
+#| " - Creates a small map in a corner with a smaller zoom. Enable to see "
+#| "Mini Map options."
+msgid ""
+"Creates a small map in a corner with a smaller zoom. Enable to see Mini Map "
+"options."
+msgstr ""
+"Tworzy małą mapę w mniejszym powiększeniem w rogu głównej mapy. Włącz, aby "
+"zobaczyć opcje Mini Mapy."
+
+#: administration.php:1366
+msgid "CSS override field"
+msgstr "Pole do nadpisania CSS"
+
+#: administration.php:926
+msgid "Current image thumb's preview border colors"
+msgstr "Kolory ramki podglądu miniatury bierzącego zdjęcia"
+
+#: administration.php:681
+msgid "Dashboard with map navigation controls"
+msgstr "Pulpit Nawigacyjny z elementami sterującymi mapą"
+
+#: administration.php:1213
+msgid "Dashboard, Locate Me button, Scalebar, Copyright, Terms, Logo"
+msgstr ""
+"Pulpit Nawigacyjny, przycisk Zlokalizuj Mnie, Pasek Skali, Prawa Autorskie, "
+"Warunki, Logo"
+
+#: bing-map-functions.php:574 bing-map-functions.php:683
+msgid "Date"
+msgstr "Data"
+
+#: administration.php:334
+#| msgid "deactivate"
+msgid "Deactivate"
+msgstr "Dezactywuj"
+
+#: administration.php:329
+msgid "Default settings will be restored. Do you really want to do this?"
+msgstr ""
+"Przywrócone zostaną ustawienia domyślne. Czy naprawdę chcesz to zrobić?"
+
+#: administration.php:1587
+msgid "Different pin shapes for different image tags"
+msgstr "Inne kształty znaczników dla różnych etykiet obrazów"
+
+#: administration.php:1521
+msgid "Disable Right-click - simple image protection for images"
+msgstr ""
+"Wyłącz kliknięcie prawym przyciskiem myszy i użyj prostej ochrony obrazu dla "
+"obrazów"
+
+#: administration.php:907
+msgid "Display \"Close\" button"
+msgstr "Wyświetl przycisk „Zamknij”"
+
+#: administration.php:905
+msgid "Display \"Download\" button"
+msgstr "Wyświetl przycisk „Pobierz”"
+
+#: administration.php:904
+msgid "Display \"Fullscreen\" button"
+msgstr "Wyświetl przycisk „Pełny ekran”"
+
+#: administration.php:908
+msgid "Display \"Share\" button"
+msgstr "Wyświetl przycisk „Udostępnij”"
+
+#: administration.php:903
+msgid "Display \"Slideshow\" button"
+msgstr "Wyświetl przycisk „Pokaz obrazów”"
+
+#: administration.php:906
+msgid "Display \"Thumbs preview\" button"
+msgstr "Wyświetl przycisk „Podgląd miniatur”"
+
+#: administration.php:902
+msgid "Display \"Zoom\" button"
+msgstr "Wyświetl przycisk „Powiększenie”"
+
+#: administration.php:900
+msgid "Display counter at the top left corner"
+msgstr "Wyświetl licznik obrazów w lewym górnym rogu"
+
+#: administration.php:899
+msgid "Display navigation arrows"
+msgstr "Wyświetl strzałki nawigacyjne"
+
+#: administration.php:885
+msgid "Display options for \"Close\" button"
+msgstr "Opcje przycisku „Zamknij”"
+
+#: administration.php:892
+msgid "Display options for toolbar with buttons at the top"
+msgstr "Opcje paska funkcji z przyciskami u góry"
+
+#: administration.php:876
+msgid "Display thumbnails preview on opening"
+msgstr "Wyświetl podgląd miniatur po otwierciu"
+
+#: geo2-fancybox3.php:208 geo2-fancybox3-worldmap.php:200
+msgid "Download"
+msgstr "Pobierz"
+
+#: administration.php:637
+msgid "E-mail for Open Street Maps Nominatim"
+msgstr "E-mail dla Map Open Street Nominatim"
+
+#: administration.php:565
+msgid "Enable Ajax shortcode"
+msgstr "Aktywuj skrót dla funkcji Ajax"
+
+#: administration.php:877 administration.php:998 administration.php:1538
+msgid "Enable infinite gallery navigation"
+msgstr "Włącz nieskończoną nawigację po galerii"
+
+#: administration.php:957
+msgid ""
+"Enable infinite gallery navigation (User can switch between the last and the "
+"first image)"
+msgstr ""
+" Włącz nieskończoną nawigację po galerii (Użytkownik może przełączać się "
+"między ostatnim a pierwszym obrazem)"
+
+#: administration.php:555
+msgid "Enable Infobox/Lightbox for galleries and Infobox for albums"
+msgstr "Włącz Info-okno/Lightbox dla galerii i Info-okno dla albumów"
+
+#: administration.php:591
+msgid ""
+"Enable only if you want to restore default settings on "
+"deactivation/activation of this plugin."
+msgstr ""
+"Włącz tylko wtedy, gdy chcesz przywrócić domyślne ustawienia podczas "
+"dezaktywacji / aktywacji tej wtyczki."
+
+#: administration.php:1196
+#, fuzzy
+#| msgid "Exclude specific albums or gallerie"
+msgid "Exclude specific albums or gallery"
+msgstr "Wyklucz określone albumy lub galerie"
+
+#: administration.php:1115
+msgid "EXIF Viewer"
+msgstr "Przeglądarka EXIF "
+
+#: administration.php:1632
+#| msgid "Fancybox 3 bottom caption mini map"
+msgid "Fancybox 3 bottom caption panel mini map"
+msgstr "Mini mapa w w dolnym panelu z opisem Fancybox 3"
+
+#: administration.php:1642
+msgid "Fancybox 3 commerce options"
+msgstr "Komercyjne opcje Fancybox 3"
+
+#: administration.php:862
+msgid "Fancybox 3 Options"
+msgstr "Opcje Fancybox 3"
+
+#: administration.php:1445
+msgid "Fancybox 3 options"
+msgstr "Opcje Fancybox 3"
+
+#: administration.php:1637
+msgid "Fancybox 3 side caption panel left or right location"
+msgstr "Prawe lub lewe położenie panelu z opisem Fancybox 3"
+
+#: administration.php:949
+msgid "Fancybox Options"
+msgstr "Opcje Fancybox"
+
+#: administration.php:1413
+msgid "Fancybox options"
+msgstr "Opcje Fancybox"
+
+#: bing-map-functions.php:582 bing-map-functions.php:702
+msgid "Focal length"
+msgstr "Ogniskowa"
+
+#. 1: Parameter name 2: Minimum pixel value 3: Maximum pixel value
+#: plugin.php:667
+#, php-format
+msgid "For parameter \"%1$s\" please enter a number ≥ %2$s and ≤ %3$s!"
+msgstr "Dla parametru \"%1$s\" proszę wpisać liczbę ≥ %2$s i ≤ %3$s!"
+
+#: administration.php:534
+msgid ""
+"For the first 3 options, if there are no albums, any found galleries will be "
+"placed on a map."
+msgstr ""
+"W przypadku pierwszych 3 opcji, jeśli nie ma żadnych albumów, wszelkie "
+"znalezione galerie zostaną umieszczone na mapie."
+
+#: geo2-fancybox3.php:206 geo2-fancybox3-worldmap.php:198
+msgid "Full screen"
+msgstr "Pełny ekran"
+
+#: administration.php:1597
+#| msgid "Fully customized map appearance"
+msgid "Fully customizable map appearance"
+msgstr "W pełni konfigurowalny wygląd mapy"
+
+#: administration.php:1571
+msgid "Future improvements"
+msgstr "Przyszłe udoskonalenia"
+
+#: administration.php:530
+#, fuzzy
+#| msgid " galleries contained in albums"
+msgid "galleries contained in albums"
+msgstr "galerii zawartych w albumach"
+
+#: administration.php:1582
+msgid "Galleries sort order"
+msgstr "Kolejność sortowania galerii"
+
+#: administration.php:574
+msgid "Gallery Map"
+msgstr "Mapa Galerii"
+
+#: administration.php:439
+msgid "General"
+msgstr "Ogólne"
+
+#: administration.php:802
+#, fuzzy
+#| msgid "Genaral Infobox/Lightbox options"
+msgid "General Infobox/Lightbox options"
+msgstr "Opcje ogólne Info-okna/Lightboxów"
+
+#: administration.php:824
+msgid "General Options"
+msgstr "Opcje ogólne"
+
+#: administration.php:1617
+#| msgid "Geo2 (Fancybox 3) style presets"
+msgid "Geo2 (Fancybox 3) colour style presets"
+msgstr "Predefiniowane style kolorystyczne Geo2 (Fancybox 3)"
+
+#: administration.php:1602
+msgid "Geo2 Map Widget"
+msgstr "Widżet Geo2 Mapy"
+
+#: administration.php:138 administration.php:139
+msgid "Geo2 Maps"
+msgstr "Geo2 Mapy"
+
+#. Name of the plugin
+#: administration.php:405
+msgid "Geo2 Maps Add-on for NextGEN Gallery"
+msgstr "Geo2 Maps - dodatek do NextGEN Gallery"
+
+#. Description of the plugin
+msgid ""
+"Geo2 Maps Add-on for NextGEN Gallery is a flexible plugin, displaying "
+"beautiful maps with your photos by using EXIF data or geocoding."
+msgstr ""
+"Geo2 Maps dla NextGEN Gallery to parametryczna wtyczka, wyświetlająca piękne "
+"mapy ze zdjęciami przy użyciu danych EXIF lub geokodowania."
+
+#: administration.php:1071
+msgid "GEO2 MAPS PLUS"
+msgstr "GEO2 MAPS PLUS"
+
+#: administration.php:446
+msgid "Geo2 Maps Plus"
+msgstr "Geo2 Maps Plus"
+
+#: administration.php:107
+#| msgid "Geo2 Maps Add-on was deactivated."
+msgid "Geo2 Maps Plus Add-on was deactivated."
+msgstr "Geo2 Maps Add-on został dezaktywowany."
+
+#: administration.php:440 administration.php:1095
+msgid "Geocoding"
+msgstr "Geokodowanie"
+
+#: administration.php:597
+msgid "Geocoding Provider"
+msgstr "Dostawca Geokodowania"
+
+#. 1: HTML link opening tag. 2: HTML link closing tag. 3: HTML link opening tag. 4: HTML link closing tag.
+#: administration.php:472
+#, fuzzy, php-format
+#| msgid ""
+#| "Get the Bing Maps Key by following the instruction in %1$shere%2$s or go "
+#| "directly to: %3$sBing Maps Dev Center%4$s"
+msgid ""
+"Get the Bing Maps Key by following the instruction in %1$shere%2$s or go "
+"directly to: %3$sBing Maps Dev Center%4$s."
+msgstr ""
+"Uzyskaj klucz Bing Maps, postępując zgodnie z instrukcją %1$stutaj%2$s lub "
+"przejdź bezpośrednio do: %3$sCentrum deweloperskie Bing Maps%4$s."
+
+#. 1: HTML link opening tag. 2: HTML link closing tag.
+#: administration.php:631
+#, fuzzy, php-format
+#| msgid "Get the MapQuest API Key by following this %slink%s."
+msgid "Get the MapQuest API Key by following this %1$slink%2$s."
+msgstr ""
+"Kliknij w ten %sodnośnik%s by przejść do strony gdzie możesz uzyskać Klucz "
+"MapQuest API."
+
+#: bing-map-functions.php:562 bing-map-functions.php:652
+msgid "GPS coordinates"
+msgstr "Współrzędne GPS"
+
+#: administration.php:838 administration.php:959
+msgid "Graphical Options"
+msgstr "Opcje wyglądu"
+
+#: administration.php:675 administration.php:726
+msgid "Grayscale"
+msgstr "Skla szarości"
+
+#: administration.php:1407
+msgid "Hide image description and expand when clicked"
+msgstr "Ukryj opis obrazu i rozwiń po kliknięciu"
+
+#: administration.php:731
+msgid "Hight"
+msgstr "Wysokość"
+
+#: administration.php:1481
+msgid "Horizontal thumbnails preview and automatic orientation"
+msgstr "Horyzonatalny podgląd miniatur i automatyczna orientacja"
+
+#: administration.php:929
+msgid "How to enable Fancybox 3 for Justified Image Grid plugin."
+msgstr "Jak uaktywnić Fancybox 3 dla wtyczki Justified Image Grid."
+
+#. Author URI of the plugin
+msgid "http://www.geo2maps.plus"
+msgstr "http://www.geo2maps.plus"
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/nextgen-gallery-geo/"
+msgstr "https://wordpress.org/plugins/nextgen-gallery-geo/"
+
+#: administration.php:909
+msgid ""
+"If no toolbar button is checked above, default buttons: \"zoom\", "
+"\"slideshow\", \"thumbs\" and \"close\" will be visible."
+msgstr ""
+"Jeśli żaden przycisk funkcji z powyższych opcji nie jest zaznaczony, "
+"domyślne przyciski: „powiększenie”, „pokaz slajdów”, „ikony” i „zamknij” "
+"będą widoczne."
+
+#: bing-map-functions.php:636
+msgid "Image"
+msgstr "Obraz"
+
+#: administration.php:1287
+msgid "Image and border shadow"
+msgstr "Cień obrazu i obramowania"
+
+#: administration.php:1006
+msgid "Image counter style"
+msgstr "Styl licznika obrazów"
+
+#: administration.php:581
+msgid "Image Map"
+msgstr "Mapa z wybranymi obrazami"
+
+#: administration.php:532
+#, fuzzy
+#| msgid " images contained in galleries"
+msgid "images contained in galleries"
+msgstr "obrazów zawartych w galeriach"
+
+#: administration.php:1304
+msgid "Individual color for image, gallery and album pins"
+msgstr "Indywidualne kolory dla znacznikow obrazów, galerii i albumów"
+
+#: administration.php:1424
+msgid "Infinite gallery navigation"
+msgstr "Nieprzerwana nawigację po galerii"
+
+#: administration.php:1486
+#, fuzzy
+#| msgid "Ifinite gallery navigation, autostart in fulscreen or slideshow"
+msgid "Infinite gallery navigation, autostart in fullscreen or slideshow"
+msgstr ""
+"Nieprzerwana nawigację po galerii, możliwosć otwórzenia w trybie pełnego "
+"ekranu"
+
+#: administration.php:444 administration.php:808
+msgid "Infobox"
+msgstr "Info-okno"
+
+#: administration.php:805
+msgid "Infobox / Lightbox Type"
+msgstr "Typ Info-okna / Lightboxu"
+
+#: administration.php:1320
+msgid "Infobox and Lightbox options"
+msgstr "Opcje Info-okna i Lightboxu"
+
+#: administration.php:850
+msgid ""
+"Infobox automatically adjusts its orientation. For portrait images, a "
+"description is shown on the right side of the image. For landscape or square "
+"images, a description is shown below the image. Placing any dimensions will "
+"override default Infobox behaviour. Leave empty to restore automatization."
+msgstr ""
+"Info-okno automatycznie dostosowuje swoją orientację. W przypadku zdjęć "
+"portretowych opis jest wyświetlany po prawej stronie obrazu. W przypadku "
+"obrazów poziomych lub kwadratowych opis wyświetlany jest pod obrazem. "
+"Umieszczenie dowolnych wymiarów zastąpi domyślne zachowanie Info-okna. "
+"Pozostaw pola puste, aby orientacja działała automatycznie."
+
+#: administration.php:853
+msgid "Infobox background color"
+msgstr "Kolor tłą Info-okna"
+
+#: administration.php:1403
+msgid "Infobox dragging"
+msgstr "Przenoszenie Info-okna"
+
+#: administration.php:848
+msgid "Infobox height"
+msgstr "Wysokość Info-okna"
+
+#: administration.php:834
+msgid "Infobox Options"
+msgstr "Opcje Info-okna"
+
+#: administration.php:1372
+msgid "Infobox options"
+msgstr "Opcje Info-okna"
+
+#: administration.php:1191
+msgid "Infobox or Lightbox for galleries or albums"
+msgstr "Info-okno lub Lightbox dla galerii lub albumów"
+
+#: administration.php:1627
+msgid "Infobox pointer and position offset option"
+msgstr "Opcja wskaźnika i przesunięcia położenia Info-okna"
+
+#: administration.php:1383
+msgid "Infobox size override"
+msgstr "Definiowanie wielkości Info-okna"
+
+#: administration.php:845
+msgid "Infobox size override:"
+msgstr "Zdefiniuj wielkość Info-okna:"
+
+#: administration.php:855
+msgid "Infobox text color"
+msgstr "Kolor textu Info-okna"
+
+#: administration.php:847
+msgid "Infobox width"
+msgstr "Szerokość Info-okna"
+
+#: administration.php:1351
+msgid "Infobox with Lightbox"
+msgstr "Info-okno z Lightboxem"
+
+#: administration.php:526
+msgid "Insert maps automatically when a gallery or an album is used"
+msgstr ""
+"Wstaw mapy automatycznie, gdy na stronie znajduje się galeria lub album"
+
+#: bing-map-functions.php:584 bing-map-functions.php:712
+#: bing-map-functions.php:715
+msgid "ISO"
+msgstr "ISO"
+
+#: bing-map-functions.php:564 bing-map-functions.php:650
+msgid "Latitude"
+msgstr "Szerokść geo."
+
+#: administration.php:867
+msgid "Layout Options"
+msgstr "Opcje układu"
+
+#: administration.php:737
+msgid "Left side offset"
+msgstr "Odsunięcie od lewej strony"
+
+#: functions.php:561
+msgid "Lens"
+msgstr "Obiektyw"
+
+#: administration.php:562
+msgid "Load map on demand"
+msgstr "Załaduj mapę na żądanie"
+
+#: administration.php:1100
+#| msgid "Load map on demand - Ajax Mode"
+msgid "Load map on demand in Ajax Mode"
+msgstr "Załaduj mapę na żądanie w trybie Ajax"
+
+#: administration.php:567
+msgid ""
+"Loading maps may significantly increase a page opening time. This option "
+"allows to load them only on a visitor request."
+msgstr ""
+"Ładowanie map może znacznie wydłużyć czas otwarcia strony. Ta opcja pozwala "
+"załadować je tylko na żądanie użytkownika."
+
+#: administration.php:682
+#| msgid "Locate Me button (dependent on Dashboard option)"
+msgid "Locate Me button (dependent on Dashboard visibility)"
+msgstr "Przycisk Zlokalizuj Mnie (zależny od widoczności Pulpitu)"
+
+#: bing-map-functions.php:563 bing-map-functions.php:648
+msgid "Longitude"
+msgstr "Długość geo."
+
+#: functions.php:988
+msgid "Map"
+msgstr "Mapa"
+
+#: administration.php:665
+msgid "Map Height"
+msgstr "Wysokość Mapy"
+
+#: administration.php:658 administration.php:1202
+msgid "Map Options"
+msgstr "Opcje Mapy"
+
+#: administration.php:1090
+msgid "Map Provider"
+msgstr "Usługodawca map"
+
+#: administration.php:461
+msgid "Map Service Provider"
+msgstr "Usługodawca Serwisu Mapowego"
+
+#: administration.php:670
+msgid "Map Style"
+msgstr "Styl Mapy"
+
+#: administration.php:1233
+msgid "Map style: Canvas Light, Canvas Dark, Grayscale, Ordnance Survey"
+msgstr ""
+"Style mapy: Motyw Jasny, Motyw Ciemny, Skala szarości, Mapa Topograficzna"
+
+#: administration.php:1228
+msgid "Map style: Road, Aerial, Bird's-eye view"
+msgstr "Styl mapy: Drogowy, Lotniczy, Widok z lotu ptaka"
+
+#: administration.php:667
+msgid "Map Width"
+msgstr "Szerokość Mapy"
+
+#: administration.php:1186
+msgid "Map with albums and/or galleries"
+msgstr "Mapa z albumami i/lub galeriami"
+
+#: administration.php:1105
+msgid "Map with selected images"
+msgstr "Mapa z wybranymi obrazami"
+
+#: administration.php:1110
+msgid "Map with tagged images"
+msgstr "Mapa zdjęć z etykietami"
+
+#: administration.php:1208
+msgid "Map zoom level and dimensions"
+msgstr "Poziom przybliżenia i wielkość mapy"
+
+#: administration.php:626
+msgid "MapQuest API Key"
+msgstr "Klucz MapQuest API"
+
+#: plugin.php:458 plugin.php:463
+msgid "MapQuest API key validation unsuccessful!"
+msgstr "Weryfikacja klucza API MapQuest nieudana!"
+
+#: administration.php:441
+msgid "Maps"
+msgstr "Mapy"
+
+#: administration.php:1159
+msgid "Maps with albums and/or galleries or images"
+msgstr "Mapa z albumami i/lub galeriami lub obrazami"
+
+#: administration.php:1154
+msgid "Maps with images contained in galleries"
+msgstr "Mapy z obrazmi zawartymi w galeriach"
+
+#: administration.php:717 administration.php:1218
+msgid "Mini Map"
+msgstr "Mini Mapa"
+
+#: administration.php:1607
+msgid "Mini Map left or right location"
+msgstr "Położenie Mini Mapy po lewej lub prawej stronie"
+
+#: administration.php:730
+msgid "Mini Map size and offset"
+msgstr "Wielkość i odsunięcie Mini Mapy"
+
+#: administration.php:720
+msgid "Mini Map Style"
+msgstr "Styl Mini Mapy"
+
+#: administration.php:1398
+msgid "Multiple Infoboxes"
+msgstr "Wielokrotne Info-okna"
+
+#: administration.php:1223
+#, fuzzy
+#| msgid ""
+#| "Navigation Bar mode and orientation, Map Type Selector, Zoom and Traffic "
+#| "buttons"
+msgid ""
+"Navigation Bar mode and orientation, Map Type Selector, Zoom, Traffic buttons"
+msgstr ""
+"Tryb i orientacja Paska Nawigacyjnego, Selektor Typu Mapy, Przyciski "
+"Powiększania i Ruchu Ulicznego"
+
+#: geo2-fancybox3.php:201 geo2-fancybox3-worldmap.php:193
+msgid "Next"
+msgstr "Następny"
+
+#: administration.php:1356
+msgid "NextGEN Gallery Lightbox Override Mode"
+msgstr "Tryb nadpisywania przeglądarki zdjęć Lightbox z Galerii NextGEN"
+
+#: administration.php:870
+msgid "No caption"
+msgstr "Bez panelu z opisem"
+
+#: administration.php:1451
+msgid "No caption and bottom caption panel"
+msgstr "Bez panela z opisem i dolny panel z opisem "
+
+#: administration.php:821
+msgid "no Lightbox plugin, no Infobox"
+msgstr "bez wtyczki Lightbox, bez Info-okna"
+
+#: administration.php:468 administration.php:605 administration.php:615
+msgid "NOT ACTIVATED"
+msgstr "NIE AKTYWOWANY"
+
+#: bing-map-functions.php:636
+msgid "of"
+msgstr "z"
+
+#. 1: HTML link opening tag. 2: HTML link closing tag.
+#: administration.php:689 administration.php:711
+#, php-format
+msgid ""
+"Officially undocumented option. Disabling may likely breach the %1$sBing "
+"Maps Platform API’s Terms of Use%2$s!"
+msgstr ""
+"Nieoficjalna, nieudokumentowana opcja. Wyłączenie jej prawdopodobnie naruszy "
+"%1$sWarunki Korzystania z Platformy API Bing Maps%2$s!"
+
+#: administration.php:981
+msgid "Opacity of background overlay from 0 (opaque) to 1 (transparent)"
+msgstr "Nieprzezroczystość tła od 0 (nieprzezroczyste) do 1 (przezroczyste)"
+
+#: administration.php:1003
+msgid "Opacity of background overlay from 0 (transparent) to 1 (opaque)"
+msgstr "Przezroczystość podkładu od 0 (przezroczyste) do 1 (nieprzezroczyste)"
+
+#: administration.php:1174
+msgid "Option to block Auto Mode"
+msgstr "Opcja blokowania trybu Auto"
+
+#: administration.php:1169
+msgid "Option to disable with other maps"
+msgstr "Opcja dezaktywacji z innymi mapami"
+
+#: administration.php:676 administration.php:727
+msgid "Ordnance Survey"
+msgstr "Mapa topograficzna tzw. Ordnance Survey"
+
+#: administration.php:840 administration.php:1378
+msgid "Overlap image title and description on top of Infobox thumbnail"
+msgstr "Nałuż tytuł i opis obrazu na miniaturę Info-okna"
+
+#: administration.php:913
+msgid "Override Fancybox 3 colors with the values below"
+msgstr "Zastąp kolory Fancybox 3 wartościami poniżej"
+
+#: administration.php:1065
+#, fuzzy
+#| msgid ""
+#| "Path for each map needs to be specified individually in a shortcode. "
+#| "Shapes from a file pointed in the field above will be shown on all maps."
+msgid ""
+"Path for each map needs to be specified individually in a shortcode. Shapes "
+"from a file in the field above will be shown on all maps."
+msgstr ""
+"Ścieżka dla każdej mapy musi być określona indywidualnie w skróconym kodzie. "
+"Kształty z pliku wskazanego w powyższym polu zostaną wyświetlone na "
+"wszystkich mapach."
+
+#: administration.php:1049
+msgid "Path to route file"
+msgstr "Ścieżka do pliku trasy"
+
+#: geo2-fancybox3.php:205 geo2-fancybox3-worldmap.php:197
+msgid "Pause slideshow"
+msgstr "Zatrzymaj pokaz slajdów"
+
+#. Author of the plugin
+msgid "Pawel Block"
+msgstr "Pawel Block"
+
+#: administration.php:1314
+msgid "Pins clustering"
+msgstr "Grupowanie znacznikó"
+
+#: administration.php:1309
+msgid "Pins from image or SVG file"
+msgstr "Znaczniki z obrazów i plików SVG"
+
+#: plugin.php:601
+msgid "Please enter a number from 0% to 100%!"
+msgstr "Wprowadź liczbę od 0% do 100%!"
+
+#. %s: maximum pixel value
+#: plugin.php:576
+#, php-format
+msgid "Please enter a number from 24 to %s, percentage 1-100%% or \"auto\"!"
+msgstr "Proszę wprowadzić liczbę od 24 do %s, procent 1-100%% lub \"auto\"!"
+
+#: plugin.php:369 plugin.php:434
+msgid "Please enter a valid API key! Special characters are not allowed."
+msgstr "Wprowadź prawidłowy klucz API! Znaki specjalne nie są dozwolone."
+
+#: plugin.php:747
+msgid "Please enter a valid email!"
+msgstr "Podaj poprawny adres e-mail!"
+
+#: plugin.php:614
+msgid "Please enter a valid number for Zoom Level in the range 1-19!"
+msgstr "Wprowadź prawidłowy numer dla poziomu powiększenia w zakresie 1-19!"
+
+#: plugin.php:628
+msgid "Please enter a valid Routes Polygon Edge Width in the range 1-50!"
+msgstr "Wprowadź prawidłową szerokość krawędzi wielokąta w zakresie 1-50!"
+
+#: plugin.php:621
+msgid "Please enter a valid Routes Polyline Width in the range 1-50!"
+msgstr "Wprowadź prawidłową szerokość polilinii w zakresie 1-50!"
+
+#: plugin.php:765
+msgid "Please enter a valid URL! Acceptable protocols: http, https, ftp, ftps"
+msgstr ""
+"Podaj poprawny adres URL! Dopuszczalne protokoły: http, https, ftp, ftps."
+
+#: administration.php:70
+msgid ""
+"Please install the NextGEN Gallery plugin before activation of the Geo2 Maps "
+"Add-on."
+msgstr "Zainstaluj wtyczkę NextGEN Gallery przed aktywacją dodatku Geo2 Maps."
+
+#. 1: HTML link opening tag. 2: HTML link closing tag. 3: HTML link opening tag. 4: HTML link closing tag.
+#: administration.php:642
+#, fuzzy, php-format
+#| msgid ""
+#| "Please read %sNominatim Usage Policy%s before using this service. "
+#| "Geocoding of larger amounts of data is not encouraged (more then 1/s). It "
+#| "is required to provide a valid e-mail address in the request string to do "
+#| "so. E-mail will be kept confidential and only used to contact you in the "
+#| "event of a problem. More information can be found %shere%s."
+msgid ""
+"Please read %1$sNominatim Usage Policy%2$s before using this service. "
+"Geocoding of larger amounts of data is not encouraged (more then 1/s). It is "
+"required to provide a valid e-mail address in the request string to do so. E-"
+"mail will be kept confidential and only used to contact you in the event of "
+"a problem. More information can be found %3$shere%4$s."
+msgstr ""
+"Proszę przeczytaj %sZasady Użytkowania Nominatim% s przed skorzystaniem z "
+"tej usługi. Nie zaleca się geokodowania większych ilości danych (więcej niż "
+"1/s). Żeby to robić wymagane jest podanie prawidłowego adresu e-mail. E-mail "
+"zostanie zachowany w tajemnicy i będzie używany tylko w celu skontaktowania "
+"się z Tobą w razie problemu. Więcej informacji można znaleźć %stutaj%s."
+
+#: geo2-fancybox3.php:203 geo2-fancybox3-worldmap.php:195
+msgid "Please try again later."
+msgstr "Spróbuj ponownie później."
+
+#: administration.php:1292
+msgid "Pointer"
+msgstr "Wskaźnik"
+
+#: administration.php:1040
+msgid "Polygon Edge Color"
+msgstr "Kolor Krawędzi Wielokątów"
+
+#: administration.php:1038
+msgid "Polygon Edge Width"
+msgstr "Szerokość Krawędzi Wielokątów"
+
+#: administration.php:1045
+msgid "Polygon Fill Color"
+msgstr "Kolor Wypełnienia Wielokątów"
+
+#: administration.php:1565
+#| msgid "Polyline and Polygon edge width and colors override"
+msgid "Polyline and polygon edge width and colors override"
+msgstr "Zmiana grubości  i koloru polilini i krawędzi wielokąta"
+
+#: administration.php:1033
+msgid "Polyline Color"
+msgstr "Kolor Polilinii"
+
+#: administration.php:1031
+msgid "Polyline Width"
+msgstr "Szerokość Polilinii"
+
+#: administration.php:872 administration.php:1456
+msgid "Prevent bottom caption to overlap the content"
+msgstr "Zapobiegaj nakładaniu się dolnego panelu z opisem na tło obrazu"
+
+#: administration.php:1120
+msgid "Preview Map"
+msgstr "Podgląd mapy"
+
+#: geo2-fancybox3.php:202 geo2-fancybox3-worldmap.php:194
+msgid "Previous"
+msgstr "Poprzedni"
+
+#: administration.php:792
+msgid "Pushpin Color for Albums"
+msgstr "Kolor Znacznika dla Albumów"
+
+#: administration.php:787
+msgid "Pushpin Color for Galleries"
+msgstr "Kolor Znacznika dla Galerii"
+
+#: administration.php:782
+msgid "Pushpin Color for Images"
+msgstr "Kolor Znacznika dla zdjęć"
+
+#: administration.php:443 administration.php:506 administration.php:1137
+msgid "Pushpins"
+msgstr "Znaczniki (tzw. Pineski)"
+
+#: administration.php:1298
+msgid "Pushpins options"
+msgstr "Opcje znaczjików (pinesek)"
+
+#: administration.php:1126
+msgid "Pushpins Type"
+msgstr "Typy znaczików"
+
+#: administration.php:1142
+msgid "Pushpins with thumbnails on hover"
+msgstr "Znaczniki z pokazującymi się po najechaniu na nie miniaturami"
+
+#: administration.php:1262
+msgid "Rectangular"
+msgstr "Prostokątne"
+
+#: administration.php:752
+msgid "Rectangular thumbnails"
+msgstr "Prostokątne miniatury"
+
+#: administration.php:1272
+msgid "Rectangular thumbnails with round corners"
+msgstr "Prostokątne z zaokrąglonymi narożnikami"
+
+#: administration.php:1533
+msgid "Resizing and the initial size"
+msgstr "Zmiana wielkości i wielkość początkowa"
+
+#: administration.php:589
+msgid "Restore default settings"
+msgstr "Przywróć ustawienia domyślne"
+
+#: administration.php:671 administration.php:722
+msgid "Road"
+msgstr "Droga"
+
+#: administration.php:1267
+msgid "Round"
+msgstr "Okrągłe"
+
+#: administration.php:1393
+msgid "Round corners"
+msgstr "Zaokrąglone narożniki"
+
+#: administration.php:753
+msgid "Round thumbnails"
+msgstr "Okrągłe miniatury"
+
+#: administration.php:1554
+msgid "Route options"
+msgstr "Opcje tras"
+
+#: administration.php:445 administration.php:1027
+msgid "Routes"
+msgstr "Trasy"
+
+#: administration.php:955 administration.php:1419
+msgid "Scale image box to fit in viewport"
+msgstr "Skaluj obrazu, aby zmieścić się w oknie przeglądarki"
+
+#: administration.php:683
+msgid "Scalebar"
+msgstr "Pasek skali"
+
+#: administration.php:528
+msgid "Select a desired option below to create a map for:"
+msgstr "Wybierz pożądaną opcję poniżej, aby utworzyć mapę dla:"
+
+#: administration.php:549
+msgid "Select a desired option below to include:"
+msgstr "Wybierz pożądaną opcję poniżej, aby uwzględnić:"
+
+#: plugin.php:406 plugin.php:410 plugin.php:444 plugin.php:454 plugin.php:458
+msgid "Server response:"
+msgstr "Odpowiedz serwera:"
+
+#: administration.php:1612
+msgid "Set and save GPS coordinates"
+msgstr "Ustaw i zapisz coordynaty GPS"
+
+#: administration.php:44
+msgid "Settings saved."
+msgstr "Ustawienia zostały zapisane."
+
+#: geo2-fancybox3.php:209 geo2-fancybox3-worldmap.php:201
+msgid "Share"
+msgstr "Udostępnij"
+
+#: administration.php:1577
+msgid "Shortcode Editor"
+msgstr "Edytor kodu Shortcode"
+
+#: administration.php:679
+#, fuzzy
+#| msgid "Should the Bird's-eye view be used, if available? (a Bing-feature)"
+msgid "Should the Bird's-eye view be used, if available? (a Bing maps feature)"
+msgstr "Czy uaktywnić widoku z lotu ptaka, jeśli jest dostępny? (funkcja Bing)"
+
+#: administration.php:961
+msgid "Show \"Close\" button"
+msgstr "Pokaż przycisk „Zamknij”"
+
+#: administration.php:1429
+#, fuzzy
+#| msgid "Show \"Close\" button, navigation arrows, image tytle and position"
+msgid "Show \"Close\" button, navigation arrows, image title and position"
+msgstr ""
+"Pokaż przycisk \"Zamknij\", strzałki nawigacyjne, tytuł obrazu i położenie"
+
+#: administration.php:1341
+msgid "Show copyrights or artist name"
+msgstr "Pokaż prawa autorskie zdjęcia lub nazwę twórcy"
+
+#: administration.php:1331
+#| msgid "Show Exif and GPS data"
+msgid "Show EXIF and GPS data"
+msgstr "Pokaż dane EXIF i GPS"
+
+#: administration.php:826
+msgid ""
+"Show EXIF information: Created Date, Camera, Aperture, Focal length, ISO, "
+"Shutter Speed"
+msgstr ""
+"Pokaż informacje EXIF: Datę utworzenia, Kamerę, Przysłonę, Ogniskową, ISO, "
+"Szybkość migawki"
+
+#: administration.php:1496
+#| msgid "Show Fancybox and Twitter buttons"
+msgid "Show Facebook and Twitter buttons"
+msgstr "Pokaż przyciski Facebook i Twitter"
+
+#: administration.php:825 administration.php:1326
+msgid "Show gallery title and description"
+msgstr "Pokaż tytuł i opis galerii"
+
+#: administration.php:827
+msgid "Show GPS coordinates"
+msgstr "Pokaż współrzędne GPS"
+
+#: administration.php:514
+msgid "Show image or gallery title below thumbs or pushpins"
+msgstr "Pokaż tytuł obrazu lub galerii poniżej znaczników i miniatur"
+
+#: administration.php:1336
+msgid "Show image tags"
+msgstr "Pokaż etykiety obrazu"
+
+#: administration.php:965
+msgid "Show image title"
+msgstr "Pokaż tytuł obrazu"
+
+#: administration.php:963
+msgid "Show navigation arrows"
+msgstr "Pokaż strzałki nawigacyjne"
+
+#: administration.php:728
+msgid "Show open at start"
+msgstr "Pokaż otwartą po otworzeniu głównej mapy"
+
+#: administration.php:1491
+msgid "Show specific buttons, navigation arrows, counter"
+msgstr "Pokaż określone przyciski, strzałki nawigacyjne, licznik"
+
+#: administration.php:1250
+#, fuzzy
+#| msgid "Show text/Alt Text on pins/tumbnails head"
+msgid "Show text/Alt Text on pins/thumbnails head"
+msgstr "Pokaż tekst/ALT Text na znaczniku/miniaturze"
+
+#: administration.php:516
+msgid "Show thumbnail Caption (subtitle) below the Title"
+msgstr "Pokaż opis (podtytuł) znacznika/miniatury poniżej tytułu"
+
+#: administration.php:1245
+msgid "Show title and caption"
+msgstr "Pokaż tytuł i opis"
+
+#: bing-map-functions.php:585 bing-map-functions.php:707
+msgid "Shutter speed"
+msgstr "Czas naświetlenia"
+
+#: administration.php:1466
+msgid "Side caption panel mini map with images location"
+msgstr "Panel boczny z mini mapą z położeniem obrazów"
+
+#: administration.php:1015
+msgid "Size Options"
+msgstr "Opcje Wielkości"
+
+#: administration.php:1506
+msgid "Slideshow speed"
+msgstr "Prędkość pokazu slajdów"
+
+#: administration.php:880
+msgid "Slideshow Speed in ms (1000ms = 1s)"
+msgstr "Prędkość pokazu slajdów w ms (1000ms = 1s)"
+
+#: administration.php:1461
+msgid "Sliding or fixed side caption panel"
+msgstr "Wysuwany lub stały panel boczny z opisem"
+
+#: administration.php:993
+msgid "Slimbox 2 Options"
+msgstr "Opcje Slimbox 2"
+
+#: administration.php:1527
+msgid "Slimbox 2 options"
+msgstr "Opcje Slimbox 2"
+
+#: administration.php:975
+msgid "Space between Fancybox wrapper and content in px"
+msgstr "Odstęp pomiędzy otoczką Fancybox a zawartością w px"
+
+#: administration.php:978
+msgid "Space between viewport and Fancybox wrapper in px"
+msgstr "Odstęp/margines między oknem przeglądarki a oknem Fancybox w px"
+
+#: geo2-fancybox3.php:204 geo2-fancybox3-worldmap.php:196
+msgid "Start slideshow"
+msgstr "Rozpocznij pokaz slajdów"
+
+#: plugin.php:406 plugin.php:410 plugin.php:454 plugin.php:458
+msgid "Status Code:"
+msgstr "Kod statusu:"
+
+#: administration.php:721
+msgid "Style of the main map"
+msgstr "Styl głównej mapy"
+
+#: administration.php:1560
+msgid "Support for GPX, XML, KMZ, KML and GeoRSS files"
+msgstr "Obsługa plików GPX, XML, KMZ, KML i GeoRSS"
+
+#: administration.php:695
+#, fuzzy
+#| msgid "Terms Link next to the Copyright Text (dependent on Copyright Text)"
+msgid ""
+"Terms link next to the Copyright text (dependent on Copyright text "
+"visibility)"
+msgstr ""
+"Link do Warunków obok tekstu dotyczącego Praw Autorskich (zależny od "
+"widoczności tekstu dotyczącego Praw Autorskich)"
+
+#: administration.php:1013
+msgid ""
+"Text value allows you to customize, translate or disable the counter text "
+"which appears in the captions when multiple images are shown. Inside the "
+"text, {x} will be replaced by the current image index, and {y} will be "
+"replaced by the total number of images. Set it to false (boolean value, "
+"without quotes) or \"\" to disable the counter display."
+msgstr ""
+"Wartość tekstowa pozwala dostosować, przetłumaczyć lub wyłączyć licznik "
+"tekstu, który pojawia się w opisach, gdy wyświetlanych jest wiele obrazów. "
+"Wewnątrz tekstu {x} zostanie zastąpiony przez bieżący indeks obrazów, a {y} "
+"zostanie zastąpione przez całkowitą liczbę obrazów. Ustaw na „false” "
+"(wartość logiczna, bez cudzysłowów) lub „”, aby wyłączyć wyświetlanie "
+"licznika."
+
+#: administration.php:624
+msgid ""
+"The geocoding function tries to find the location of a gallery using it's "
+"Title, if there are no coordinates available."
+msgstr ""
+"Funkcja geokodowania próbuje znaleźć lokalizację galerii, używając jej "
+"tytułu, jeśli nie ma dostępnych współrzędnych."
+
+#: administration.php:1018
+msgid "The initial height of the box in pixels"
+msgstr "Początkowa wysokość okna w pikselach"
+
+#: administration.php:1016
+msgid "The initial width of the box in pixels"
+msgstr "Początkowa szerokość okna w pikselach"
+
+#: geo2-fancybox3.php:203 geo2-fancybox3-worldmap.php:195
+msgid "The requested content cannot be loaded."
+msgstr "Żądana zawartość nie może zostać załadowana."
+
+#: administration.php:515
+msgid "The style of this text can not be changed."
+msgstr "Styl tego tekstu nie może zostać zmieniony."
+
+#: administration.php:1054
+msgid ""
+"There is a support for pushpins, polylines and polygons in the imported file."
+msgstr ""
+"Z wybranego pliku mogą być zaimportowane znaczniki, polilinie i wielokąty."
+
+#: administration.php:517
+#, fuzzy
+#| msgid ""
+#| "This option shows the Caption text from the WP Media Library for the "
+#| "corresponding image to the NextGen image if it exists there. Requires the "
+#| "Title label to be set and enabled above."
+msgid ""
+"This option shows the Caption text from the WP Media Library for the "
+"corresponding image to the NextGEN image if it exists there. Requires the "
+"Title label to be set and enabled above."
+msgstr ""
+"Ta opcja pokazuje tekst podpisu z Biblioteki mediów WP dla odpowiedniego "
+"obrazu do obrazu NextGen, jeśli istnieje tam. Wymaga ustawienia etykiety "
+"tytułu i włączenia jej powyżej."
+
+#: administration.php:841
+msgid ""
+"This option will place gallery title, gallery description, image title and "
+"image description on top of the Infobox thumbnail image."
+msgstr ""
+"Ta opcja spowoduje umieszczenie tytułu galerii, opisu galerii, tytułu obrazu "
+"i opisu obrazu na obrazie miniaturki Infobox."
+
+#. 1: HTML link opening tag. 2: HTML link closing tag.
+#: administration.php:418
+#, php-format
+msgid "This plugin is an add-on for the %1$sNextGEN Gallery%2$s plugin."
+msgstr "Ten plugin jest dodatkiem do pluginu %1$sNextGEN Gallery%2$s."
+
+#: administration.php:767
+msgid "Thumbnail border (frame) width"
+msgstr "Szerokość ramki miniatury"
+
+#: administration.php:771
+msgid "Thumbnail border color"
+msgstr "Kolor ramki miniatury"
+
+#: administration.php:756
+msgid "Thumbnail height"
+msgstr "Wysokość miniatury"
+
+#: administration.php:749
+msgid "Thumbnail options"
+msgstr "Opcje miniatury"
+
+#: administration.php:763
+msgid "Thumbnail radius"
+msgstr "Promień Miniatury"
+
+#: administration.php:759
+msgid "Thumbnail width"
+msgstr "Szerokość miniatury"
+
+#: geo2-fancybox3.php:207 administration.php:442
+#: geo2-fancybox3-worldmap.php:199
+msgid "Thumbnails"
+msgstr "Miniatury"
+
+#: administration.php:512
+msgid "Thumbnails and Pushpins common options"
+msgstr "Wspólne opcje Miniatur i Znaczników"
+
+#: administration.php:1239
+msgid "Thumbnails and Pushpins options"
+msgstr "Opcje Miniatur i Znaczników (Pinesek)"
+
+#: administration.php:1256
+msgid "Thumbnails options"
+msgstr "Opcje miniatur"
+
+#: administration.php:502
+msgid "Thumbnails or Pushpins"
+msgstr "Miniatury i Znaczniki"
+
+#: administration.php:1476
+msgid "Thumbnails preview vertical orientation"
+msgstr "Pionowa orientacja podgląd miniatur"
+
+#: administration.php:761
+#, fuzzy
+#| msgid ""
+#| "Thumbnails will retain proportions of thumbnails in NextGen Gallery. "
+#| "Above dimensions are maximum dimensions in px."
+msgid ""
+"Thumbnails will retain proportions of thumbnails in NextGEN Gallery. Above "
+"dimensions are maximum dimensions in px."
+msgstr ""
+"Miniatury zachowają proporcje ustawione dla miniatur z Galerii NextGen. "
+"Powyższe wymiary to maksymalne wymiary w px."
+
+#: administration.php:918
+msgid "Thumbs preview background color"
+msgstr "Kolor tła podglądu miniatur"
+
+#: administration.php:968
+msgid "Title position"
+msgstr "Położenie tytułu"
+
+#: administration.php:765
+msgid ""
+"Too big corner radius will be automatically reduced to half of the thumb "
+"size."
+msgstr ""
+"Zbyt duży promień narożnika zostanie automatycznie zmniejszony do połowy "
+"rozmiaru miniatury."
+
+#: administration.php:769
+msgid ""
+"Too big thickness will be automatically reduced to 1/4 of the thumb size. "
+"For 0 border will not be created."
+msgstr ""
+"Zbyt duża grubość zostanie automatycznie zmniejszona do 1/4 rozmiaru "
+"miniatury. Dla 0 obramowania nie zostanie utworzone."
+
+#: administration.php:901
+msgid "Toolbar buttons:"
+msgstr "Przyciski paska funkcji:"
+
+#: administration.php:538
+msgid "Top of the page"
+msgstr "Na górze strony"
+
+#: administration.php:735
+msgid "Top offset"
+msgstr "Odsunięcie od góry"
+
+#: administration.php:1164
+msgid "Top or bottom placement"
+msgstr "Położenie na górze lub na dole strony"
+
+#: administration.php:1439 administration.php:1511 administration.php:1548
+msgid "Transitions type and speed"
+msgstr "Typ i szybkość przekształcenia"
+
+#: administration.php:1516
+msgid "Translations: German, Polish, Spanish"
+msgstr "Tłumaczenia: Niemieckie, Polskie, Hiszpańskie"
+
+#: administration.php:1346
+msgid "Types: Infobox, Fancybox, Slimbox 2 or Fancybox 3"
+msgstr "Typy: Info-okno, Lightbox, Fancybox, Slimbox 2 lub Fancybox 3"
+
+#: administration.php:1073
+msgid ""
+"Upgrade to much more powerful version of the Geo2 Maps with expanded "
+"functionality, other beautiful pins and Lightboxes, video capabilities and "
+"all of it with plenty of customization options."
+msgstr ""
+"Uaktualnij do znacznie bardziej rozbudowanej wersji Geo2 Maps z rozszerzoną "
+"funkcjonalnością, nowymi typami znaczników, pięknymi stylami lightboxamów, "
+"możliwością odtwarzania filmów i to wszytstko z wieloma opcjami adaptacji."
+
+#: administration.php:1361
+#, fuzzy
+#| msgid "URL link to a specific web page insted of Infobox or Lightbox"
+msgid "URL link to a specific web page instead of Infobox or Lightbox"
+msgstr ""
+"Łącze URL do określonej strony internetowej zamiast do Info-okna lub "
+"Lightboxa"
+
+#: administration.php:1066
+#, fuzzy
+#| msgid ""
+#| "Use path staring with: \"http://...\" or \"https://...\". Accepted are "
+#| "common geospatial XML file formats such as KML (Keyhole Markup Language), "
+#| "KMZ (compressed KMl), GeoRSS, GML (geography Markup Language, exposed via "
+#| "GeoRSs ), and GPX (GPS Exchange Format)."
+msgid ""
+"Use a path starting with: \"http://...\" or \"https://...\". Accepted are "
+"common geospatial XML file formats such as KML (Keyhole Markup Language), "
+"KMZ (compressed KML), GeoRSS, GML (Geography Markup Language, exposed via "
+"GeoRSs ), and GPX (GPS Exchange Format)."
+msgstr ""
+"Użyj ścieżki rozpoczynającej się od: „http://…” lub „https://…”. Akceptowane "
+"są popularne formaty plików XML danych geoprzestrzennych, takie jak KML "
+"(Keyhole Markup Language), KMZ (skompresowany KML), GeoRSS, GML (Geography "
+"Markup Language, udostępniany za pośrednictwem GeoRS) i GPX (GPS Exchange "
+"Format)."
+
+#: administration.php:677
+msgid "Use Bird's-eye view"
+msgstr "Użyj widoku z lotu ptaka"
+
+#: administration.php:1471
+msgid "Video support and video options"
+msgstr "Wsparcie obsługi wideo i opcje wideo"
+
+#: administration.php:325
+msgid "Warning"
+msgstr "Ostrzeżenie"
+
+#: administration.php:568
+msgid ""
+"When the Ajax shortcode option above is enabled and the shortcode below is "
+"placed in a map shortcode, a map won't be initiated when a page opens. A "
+"placeholder will be created in the place of this map. Clicking on it will "
+"load and open it."
+msgstr ""
+"Gdy powyższa opcja Ajax jest włączona, a poniższy kod jest umieszczony w "
+"kodzie mapy, mapa nie zostanie zainicjowana po otwarciu strony internetowej. "
+"Zastępczy symbol zostanie utworzony w miejscu tej mapy. Kliknięcie go "
+"załaduje i otworzy tę mapę."
+
+#: administration.php:557
+#, fuzzy
+#| msgid ""
+#| "When this option is enabled the whole content of the gallery will be "
+#| "downloaded (using Ajax) and viewed in the selected Lightbox. The default "
+#| "behaviour will link to a page set up in the NextGen Gallery options or if "
+#| "the gallery is placed on the same page will load/open this gallery."
+msgid ""
+"When this option is enabled the whole content of the gallery will be "
+"downloaded (using Ajax) and viewed in the selected Lightbox. The default "
+"behaviour will link to a page set up in the NextGEN Gallery options or if "
+"the gallery is placed on the same page will load/open this gallery."
+msgstr ""
+"Po włączeniu tej opcji cała zawartość galerii zostanie pobrana (za pomocą "
+"trybu Ajax) i wyświetlona w wybranym Lightboxie. Domyślne zachowanie "
+"spowoduje połączenie ze stroną ustawioną w opcjach Galerii NextGen lub jeśli "
+"galeria zostanie umieszczona na tej samej stronie, załaduje / otworzy tę "
+"galerię."
+
+#: administration.php:680
+msgid "Which elements should be displayed?"
+msgstr "Które elementy powinny być wyświetlone?"
+
+#: administration.php:664
+msgid ""
+"Which Zoom Level should be used? (maps with several pins are focused "
+"automatically)"
+msgstr ""
+"Jaki poziom powiększenia powinien być użyty? (mapy z wieloma znacznikami "
+"zostanie ustawiona automatycznie)"
+
+#: administration.php:733
+msgid "Width"
+msgstr "Szerokość"
+
+#: administration.php:544 administration.php:1180
+msgid "Worldmap"
+msgstr "Mapa Świata (Worldmap)"
+
+#: administration.php:547
+#, fuzzy
+#| msgid ""
+#| "Worldmap option creates a map with all NextGen albums and/or galleries."
+msgid "Worldmap option creates a map with all NextGEN albums and/or galleries."
+msgstr ""
+"Opcja Mapy Świata tworzy mapę ze wszystkimi albumami i / lub galeriami "
+"NextGen."
+
+#: administration.php:806
+#, fuzzy
+#| msgid ""
+#| "You can choose between three different Lightbox plugins. These plugins "
+#| "are already included. Fancybox (used by NextGen) and Slimbox 2 are free "
+#| "for personal and commercial usage. Fancybox 3 is only free for personal "
+#| "use."
+msgid ""
+"You can choose between three different Lightbox plugins. These plugins are "
+"already included. Fancybox (used by NextGEN) and Slimbox 2 are free for "
+"personal and commercial usage. Fancybox 3 is only free for personal use."
+msgstr ""
+"Możesz wybrać jedną z trzech różnych wtyczek Lightbox. Wtyczki te są już "
+"zawarte w instalacji. Fancybox (używany przez NextGen) i Slimbox 2 są "
+"bezpłatne do użytku osobistego i komercyjnego. Fancybox 3 jest bezpłatny "
+"tylko do użytku osobistego."
+
+#: administration.php:507
+msgid ""
+"You can show rectangular or round thumbnail images by choosing a desired "
+"option on the Thumbnails tab."
+msgstr ""
+"Możesz wyświetlić prostokątne lub okrągłe obraz miniatur, wybierając "
+"pożądaną opcję na zakładce Miniatury."
+
+#: administration.php:669
+msgid ""
+"You can use something like \"235px\", \"auto\" or \"78%\". Number only "
+"\"235\" will be changed to \"235px\" automatically. \"auto\" does not work "
+"with the Map Height. <br /> Height and width of the maps can be changed "
+"directly by using CSS. The class is named <code>geo2_maps_map</code>"
+msgstr ""
+"Możesz użyć na przykład: „235px”, „auto” lub „78%”. Numer „235” zostanie "
+"automatycznie zamieniony na „235px”. „auto” nie działa z wysokością mapy. "
+"<br /> Wysokość i szerokość map można zmienić bezpośrednio za pomocą CSS. "
+"Klasa CSS ma nazwę <code> geo2_maps_map </code>"
+
+#: geo2-fancybox3.php:210 geo2-fancybox3-worldmap.php:202
+msgid "Zoom"
+msgstr "Powiększenie"
+
+#: administration.php:662
+msgid "Zoom Level"
+msgstr "Stopień powiększenia"
